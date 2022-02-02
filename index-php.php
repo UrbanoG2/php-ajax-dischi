@@ -17,7 +17,6 @@
     <?php include_once __DIR__ . '/partials/header.php' ?>
     <!-- Main -->
     <?php include_once __DIR__ . '/partials/main.php' ?>
-    
     <!-- Footer -->
     <?php include_once __DIR__ . '/partials/footer.php' ?>
 
