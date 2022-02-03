@@ -1,17 +1,8 @@
-<?php 
- include __DIR__ . '/../server/db.php';
-?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Document</title>
-</head>
 <body>
+
+    <!-- prima fatto con php, quindi foreach e faccio riferimento a index-php -->
+
    <div id="app">
         <!-- <div class="cards-container" >
             <?php foreach ($cards as $card) { ?>
@@ -27,6 +18,9 @@
                 </div>
             <?php } ?>
         </div> -->
+
+
+        <!-- qui fatto con vue.js e faccio riferimento a index-ajax-->
 
         <div class="cards-container" >
             
@@ -44,4 +38,3 @@
         </div>
    </div>
 </body>
-</html>
